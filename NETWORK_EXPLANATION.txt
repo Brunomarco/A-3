@@ -1,0 +1,9 @@
+Subnet and Static IP Range Selection:
+- We chose the subnet 172.20.0.0/16 for our custom network.
+- Static IPs: 172.20.0.2 (web), 172.20.0.3 (db)
+
+Impact of Overlapping Subnets:
+Overlapping subnets can cause routing conflicts and network connectivity issues on the host system.
+
+DNS Resolution in Docker:
+Docker provides automatic DNS resolution for container names within the same network, allowing containers to communicate using service names instead of IP addresses.

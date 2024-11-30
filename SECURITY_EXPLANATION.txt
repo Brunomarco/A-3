@@ -1,0 +1,5 @@
+Importance of .gitignore for .env files:
+.env files contain sensitive information and should not be committed to version control. Adding .env to .gitignore prevents accidental exposure of credentials.
+
+Risks of exposing credentials:
+Exposing credentials can lead to unauthorized access to databases and services, potentially resulting in data breaches or system compromises.
